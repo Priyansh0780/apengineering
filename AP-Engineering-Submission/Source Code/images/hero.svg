@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" role="img" aria-label="VMC milling machine cutting a metal block">
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e4e9ef"/><stop offset="1" stop-color="#8d99a8"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f7bea"/><stop offset="1" stop-color="#0a55b8"/></linearGradient>
+  </defs>
+  <rect width="600" height="440" fill="#1b222b"/>
+  <g stroke="#2c3643" stroke-width="1">
+    <path d="M0 60H600M0 120H600M0 180H600M0 240H600M0 300H600M0 360H600M0 420H600"/>
+    <path d="M60 0V440M120 0V440M180 0V440M240 0V440M300 0V440M360 0V440M420 0V440M480 0V440M540 0V440"/>
+  </g>
+  <!-- machine column -->
+  <rect x="70" y="40" width="90" height="340" rx="6" fill="url(#blue)"/>
+  <rect x="85" y="60" width="60" height="30" rx="3" fill="#07438f"/>
+  <circle cx="100" cy="75" r="6" fill="#5aa0ff"/><circle cx="120" cy="75" r="6" fill="#e4e9ef"/>
+  <!-- head -->
+  <rect x="130" y="70" width="270" height="70" rx="8" fill="url(#blue)"/>
+  <rect x="300" y="140" width="70" height="60" rx="4" fill="url(#steel)"/>
+  <!-- spindle + cutter -->
+  <rect x="322" y="200" width="26" height="40" fill="#5b6675"/>
+  <rect x="327" y="240" width="16" height="70" fill="url(#steel)"/>
+  <path d="M327 310h16l-2 14h-12z" fill="#c8d0da"/>
+  <!-- sparks -->
+  <g stroke="#ffb02e" stroke-width="3" stroke-linecap="round">
+    <path d="M305 335l-22-14M365 335l22-14M300 345l-26 2M370 345l26 2M310 328l-14-22M360 328l14-22"/>
+  </g>
+  <!-- table -->
+  <rect x="190" y="350" width="330" height="26" rx="4" fill="#5b6675"/>
+  <rect x="170" y="376" width="370" height="40" rx="4" fill="#0a55b8"/>
+  <!-- workpiece -->
+  <rect x="240" y="326" width="220" height="24" fill="url(#steel)"/>
+  <rect x="270" y="326" width="40" height="10" fill="#1b222b"/>
+  <rect x="390" y="326" width="40" height="10" fill="#1b222b"/>
+  <text x="300" y="30" font-family="Arial" font-size="16" fill="#5aa0ff" text-anchor="middle" letter-spacing="3">VMC MILLING</text>
+</svg>

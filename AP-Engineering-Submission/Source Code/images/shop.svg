@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Machine shop floor with VMC machines">
+  <rect width="600" height="400" fill="#e9edf2"/>
+  <rect y="290" width="600" height="110" fill="#c5ccd6"/>
+  <g fill="#0a55b8">
+    <rect x="50" y="130" width="150" height="170" rx="6"/>
+    <rect x="225" y="130" width="150" height="170" rx="6"/>
+    <rect x="400" y="130" width="150" height="170" rx="6"/>
+  </g>
+  <g fill="#232b35">
+    <rect x="65" y="150" width="120" height="80" rx="4"/>
+    <rect x="240" y="150" width="120" height="80" rx="4"/>
+    <rect x="415" y="150" width="120" height="80" rx="4"/>
+  </g>
+  <g fill="#9aa6b5">
+    <rect x="115" y="170" width="20" height="40"/>
+    <rect x="290" y="170" width="20" height="40"/>
+    <rect x="465" y="170" width="20" height="40"/>
+  </g>
+  <g fill="#5aa0ff"><circle cx="80" cy="262" r="7"/><circle cx="255" cy="262" r="7"/><circle cx="430" cy="262" r="7"/></g>
+  <path d="M0 90h600" stroke="#232b35" stroke-width="6"/>
+  <g fill="#232b35"><rect x="90" y="60" width="4" height="30"/><rect x="290" y="60" width="4" height="30"/><rect x="490" y="60" width="4" height="30"/></g>
+  <g fill="#fff" stroke="#232b35" stroke-width="2"><rect x="70" y="40" width="44" height="22" rx="3"/><rect x="270" y="40" width="44" height="22" rx="3"/><rect x="470" y="40" width="44" height="22" rx="3"/></g>
+</svg>

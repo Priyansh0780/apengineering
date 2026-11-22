@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Service | AP Engineering Admin</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<input type="checkbox" id="side-toggle">
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand"><img src="../images/logo.jpeg" alt="AP Engineering"></div>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="services.html">Manage Services</a>
+      <a class="active" href="add-service.html">Add Service</a>
+      <a href="enquiries.html">Enquiries</a>
+      <a href="../index.html">View Website</a>
+      <div class="logout"><a href="login.html">Logout</a></div>
+    </nav>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <label class="side-btn" for="side-toggle" style="margin:0 12px 0 0">&#9776;</label>
+      <h1>Add / Edit Service</h1>
+      <span class="user">Welcome, Admin</span>
+    </div>
+
+    <div class="content">
+      <div class="panel">
+        <h2>Service Details</h2>
+        <form action="services.html" method="get">
+          <div class="form-grid">
+            <div>
+              <label for="code">Service Code</label>
+              <input type="text" id="code" name="code" placeholder="SERVICE_07" required>
+            </div>
+            <div>
+              <label for="sname">Service Name</label>
+              <input type="text" id="sname" name="name" placeholder="e.g. Keyway Milling" required>
+            </div>
+            <div class="full">
+              <label for="desc">Description</label>
+              <textarea id="desc" name="desc" placeholder="Short description shown on the website" required></textarea>
+            </div>
+            <div>
+              <label for="image">Service Image</label>
+              <input type="file" id="image" name="image" accept="image/*">
+            </div>
+            <div>
+              <label for="status">Status</label>
+              <select id="status" name="status">
+                <option>Active</option>
+                <option>Inactive</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button class="btn" type="submit">Save Service</button>
+            <a class="btn grey" href="services.html">Cancel</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiries | AP Engineering Admin</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<input type="checkbox" id="side-toggle">
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand"><img src="../images/logo.jpeg" alt="AP Engineering"></div>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="services.html">Manage Services</a>
+      <a href="add-service.html">Add Service</a>
+      <a class="active" href="enquiries.html">Enquiries</a>
+      <a href="../index.html">View Website</a>
+      <div class="logout"><a href="login.html">Logout</a></div>
+    </nav>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <label class="side-btn" for="side-toggle" style="margin:0 12px 0 0">&#9776;</label>
+      <h1>Customer Enquiries</h1>
+      <span class="user">Welcome, Admin</span>
+    </div>
+
+    <div class="content">
+      <div class="panel">
+        <h2>All Enquiries</h2>
+        <div class="table-wrap">
+          <table>
+            <tr><th>#</th><th>Name</th><th>Company</th><th>Phone</th><th>Service</th><th>Date</th><th>Status</th><th>Action</th></tr>
+            <tr><td>1</td><td>Rahul Mehta</td><td>Mehta Tools</td><td>98XXXXXX01</td><td>Production Milling</td><td>08 Oct 2026</td><td><span class="badge new">New</span></td><td><a class="act view" href="#">View</a><a class="act del" href="#">Delete</a></td></tr>
+            <tr><td>2</td><td>Jay Shah</td><td>Shah Industries</td><td>98XXXXXX02</td><td>Prototype Milling</td><td>06 Oct 2026</td><td><span class="badge pending">Pending</span></td><td><a class="act view" href="#">View</a><a class="act del" href="#">Delete</a></td></tr>
+            <tr><td>3</td><td>Nirav Patel</td><td>NP Fabricators</td><td>98XXXXXX03</td><td>Pocket &amp; Slot Milling</td><td>03 Oct 2026</td><td><span class="badge done">Replied</span></td><td><a class="act view" href="#">View</a><a class="act del" href="#">Delete</a></td></tr>
+            <tr><td>4</td><td>Dhaval Joshi</td><td>DJ Engineering</td><td>98XXXXXX04</td><td>Drilling &amp; Boring</td><td>28 Sep 2026</td><td><span class="badge done">Replied</span></td><td><a class="act view" href="#">View</a><a class="act del" href="#">Delete</a></td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

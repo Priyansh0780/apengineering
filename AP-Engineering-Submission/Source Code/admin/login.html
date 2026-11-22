@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login | AP Engineering</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body class="login-page">
+  <div class="login-box">
+    <img src="../images/logo.jpeg" alt="AP Engineering logo">
+    <h2>Admin Login</h2>
+    <p class="sub">Sign in to manage the AP Engineering website</p>
+    <!-- Front-end only: the form sends the visitor to the dashboard page -->
+    <form action="dashboard.html" method="get">
+      <label for="user">Username</label>
+      <input type="text" id="user" name="user" placeholder="Enter username" required>
+      <label for="pass">Password</label>
+      <input type="password" id="pass" name="pass" placeholder="Enter password" required>
+      <div class="form-actions"><button class="btn" type="submit" style="width:100%">Login</button></div>
+    </form>
+    <a class="back-link" href="../index.html">&larr; Back to Website</a>
+  </div>
+</body>
+</html>

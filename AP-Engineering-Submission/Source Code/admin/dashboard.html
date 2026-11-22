@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | AP Engineering Admin</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<input type="checkbox" id="side-toggle">
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand"><img src="../images/logo.jpeg" alt="AP Engineering"></div>
+    <nav>
+      <a class="active" href="dashboard.html">Dashboard</a>
+      <a href="services.html">Manage Services</a>
+      <a href="add-service.html">Add Service</a>
+      <a href="enquiries.html">Enquiries</a>
+      <a href="../index.html">View Website</a>
+      <div class="logout"><a href="login.html">Logout</a></div>
+    </nav>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <label class="side-btn" for="side-toggle" style="margin:0 12px 0 0">&#9776;</label>
+      <h1>Dashboard</h1>
+      <span class="user">Welcome, Admin</span>
+    </div>
+
+    <div class="content">
+      <div class="stat-grid">
+        <div class="stat-card"><h3>6</h3><p>Milling Services</p></div>
+        <div class="stat-card green"><h3>24</h3><p>Total Enquiries</p></div>
+        <div class="stat-card amber"><h3>5</h3><p>Pending Quotes</p></div>
+        <div class="stat-card dark"><h3>12</h3><p>Jobs Completed</p></div>
+      </div>
+
+      <div class="panel">
+        <h2>Latest Enquiries <a class="act view" href="enquiries.html">View All</a></h2>
+        <div class="table-wrap">
+          <table>
+            <tr><th>#</th><th>Name</th><th>Service</th><th>Date</th><th>Status</th></tr>
+            <tr><td>1</td><td>Rahul Mehta</td><td>Production Milling</td><td>08 Oct 2026</td><td><span class="badge new">New</span></td></tr>
+            <tr><td>2</td><td>Jay Shah</td><td>Prototype Milling</td><td>06 Oct 2026</td><td><span class="badge pending">Pending</span></td></tr>
+            <tr><td>3</td><td>Nirav Patel</td><td>Pocket &amp; Slot Milling</td><td>03 Oct 2026</td><td><span class="badge done">Replied</span></td></tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Quick Actions</h2>
+        <a class="btn" href="add-service.html">+ Add New Service</a>
+        <a class="btn grey" href="services.html">Manage Services</a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

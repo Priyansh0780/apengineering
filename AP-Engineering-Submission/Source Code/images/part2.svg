@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Profile milled component">
+  <rect width="400" height="260" fill="#232b35"/>
+  <path d="M90 190V90l50-30h120l50 30v100z" fill="#9aa6b5"/>
+  <path d="M90 190h220v26H90z" fill="#6c7888"/>
+  <path d="M150 190V120h40v35h20v-35h40v70z" fill="#232b35"/>
+  <circle cx="130" cy="95" r="9" fill="#232b35"/><circle cx="270" cy="95" r="9" fill="#232b35"/>
+  <path d="M90 90l50-30h120" stroke="#0a55b8" stroke-width="3" fill="none"/>
+</svg>

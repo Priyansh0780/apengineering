@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manage Services | AP Engineering Admin</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<input type="checkbox" id="side-toggle">
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand"><img src="../images/logo.jpeg" alt="AP Engineering"></div>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a class="active" href="services.html">Manage Services</a>
+      <a href="add-service.html">Add Service</a>
+      <a href="enquiries.html">Enquiries</a>
+      <a href="../index.html">View Website</a>
+      <div class="logout"><a href="login.html">Logout</a></div>
+    </nav>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <label class="side-btn" for="side-toggle" style="margin:0 12px 0 0">&#9776;</label>
+      <h1>Manage Services</h1>
+      <span class="user">Welcome, Admin</span>
+    </div>
+
+    <div class="content">
+      <div class="panel">
+        <h2>Milling Services <a class="btn" href="add-service.html">+ Add Service</a></h2>
+        <div class="table-wrap">
+          <table>
+            <tr><th>Code</th><th>Service Name</th><th>Description</th><th>Status</th><th>Action</th></tr>
+            <tr><td>SERVICE_01</td><td>Face &amp; Surface Milling</td><td>Flat faces, shoulders and steps machined true to size.</td><td><span class="badge active">Active</span></td><td><a class="act edit" href="add-service.html">Edit</a><a class="act del" href="#">Delete</a></td></tr>
+            <tr><td>SERVICE_02</td><td>Profile &amp; Contour Milling</td><td>Complex 2D and 3D profiles cut to drawing.</td><td><span class="badge active">Active</span></td><td><a class="act edit" href="add-service.html">Edit</a><a class="act del" href="#">Delete</a></td></tr>
+            <tr><td>SERVICE_03</td><td>Pocket &amp; Slot Milling</td><td>Pockets, slots, keyways and cavities with depth control.</td><td><span class="badge active">Active</span></td><td><a class="act edit" href="add-service.html">Edit</a><a class="act del" href="#">Delete</a></td></tr>
+            <tr><td>SERVICE_04</td><td>Prototype Milling</td><td>Fast first articles and low-volume runs.</td><td><span class="badge active">Active</span></td><td><a class="act edit" href="add-service.html">Edit</a><a class="act del" href="#">Delete</a></td></tr>
+            <tr><td>SERVICE_05</td><td>Production Milling</td><td>Repeatable batch milling with in-process QC.</td><td><span class="badge active">Active</span></td><td><a class="act edit" href="add-service.html">Edit</a><a class="act del" href="#">Delete</a></td></tr>
+            <tr><td>SERVICE_06</td><td>Drilling &amp; Boring</td><td>Hole-making, boring and reaming in the same setup.</td><td><span class="badge active">Active</span></td><td><a class="act edit" href="add-service.html">Edit</a><a class="act del" href="#">Delete</a></td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
